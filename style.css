@@ -1,0 +1,86 @@
+/*? Start Code Style in CSS2 CSS3 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fffafa;
+}
+
+.img-1{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.display{
+    width: 450px;
+    height: 80px;
+    background-color: #141414;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    top: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    direction: rtl;
+    color: #fffafa;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+
+.keypad{
+    width: 450px;
+    height: 550px;
+    background-color: #fc0075;
+    border-radius: 0px 0px 10px 10px;
+    display: grid;
+    grid-template-columns: repeat(4 , 80px);
+    grid-template-rows: repeat(5 , 80px);
+    gap: 20px;
+}
+
+.button{
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 32px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #ffff00;
+}
+
+.root{
+    background-color: #000;
+    color: #fffafa;
+    border-radius: 100%;
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 32px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.AC{
+    padding-left: 20px;
+}
